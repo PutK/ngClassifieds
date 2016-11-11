@@ -5,8 +5,9 @@
     <title>ngClassifieds</title>
   </head>
   <body ng-app="ngClassifieds" ng-controller="classifiedsCtrl">
-    <h1>{{ message }}</h1>
-    <h2>{{ name.first }}</h2>
+    <input type="text" placeholder="Enter your name" ng-model="name.first">
+    <h1>{{ name.first  }}</h1>
+    <h1>More on templating: {{ 6*6 }}</h1>
 
     <script src="node_modules/angular/angular.js"></script>
     <script src="scripts/app.js"></script>
