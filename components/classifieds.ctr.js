@@ -10,7 +10,7 @@
         };
         $scope.message = "Hello, World";
 
-        $scope.classifieds =
+        $scope.classifieds = [
         {
           "id":"1",
           "title":"20 Foot Equipment Trailer",
@@ -116,6 +116,6 @@
           "image":"http://images.buysellsearch.com/image/orig/8dfc4f6c5d411130d19dedd28d61bc2b/2009-dodge-caliber-se.jpg",
           "views":423
         }
-
+      ]
     });
 })();
